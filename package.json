@@ -1,0 +1,36 @@
+{
+  "name": "webpack-landing-boilerplate",
+  "version": "1.0.0",
+  "description": "Simple webpack boilerplate for creating landing",
+  "main": "index.js",
+  "keywords": [],
+  "author": "MohammadReza Khedri",
+  "license": "ISC",
+  "scripts": {
+    "clean": "rm dist/bundle.js",
+    "create": "webpack -d --mode development",
+    "start": "webpack-dev-server",
+    "build": "webpack -p --mode production"
+  },
+  "dependencies": {
+    "jquery": "^3.4.1"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.5.5",
+    "@babel/plugin-proposal-object-rest-spread": "^7.5.5",
+    "@babel/preset-env": "^7.5.5",
+    "autoprefixer": "^9.6.1",
+    "babel-loader": "^8.0.6",
+    "css-loader": "^3.0.0",
+    "eslint": "^6.0.1",
+    "file-loader": "^4.0.0",
+    "node-sass": "^4.12.0",
+    "postcss-loader": "^3.0.0",
+    "sass-loader": "^7.1.0",
+    "style-loader": "^0.23.1",
+    "url-loader": "^2.0.1",
+    "webpack": "^4.36.1",
+    "webpack-cli": "^3.3.6",
+    "webpack-dev-server": "^3.7.2"
+  }
+}
